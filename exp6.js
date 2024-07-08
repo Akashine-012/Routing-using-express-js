@@ -1,0 +1,6 @@
+const express = require('express')
+const app = express()
+const routing = require('./route.js')
+app.use('/', routing)
+app.listen(1000)
+console.log("running")
